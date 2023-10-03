@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Enviar datos al servidor PHP</h1>
+
+	<form action="procesar.php" method="get">
+
+		<p>
+			<label for="asistencia">El estudiante viene con regularidad a clase</label>
+			<select name="asistencia">
+				<option value=""></option>
+				<option value="si">Si</option>
+				<option value="no">No</option>
+			</select>
+		</p>
+
+		<p>
+			<label for="tarea">El estudiante realiza los retos que propone el profesor</label>
+			<select name="tarea">
+				<option value=""></option>
+				<option value="si">Si</option>
+				<option value="no">No</option>
+			</select>
+		</p>
+		<input type="submit" value="Enviar al servidor">
+
+		
+	</form>
+	
+</body>
+</html>
