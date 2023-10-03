@@ -1,0 +1,23 @@
+<!<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+</head>
+<body>
+	<h1>Formulario para recoger datos</h1>
+
+	<form method="get" action="procesar.php">
+
+		<p>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre">
+		</p>
+
+		<input type="submit" value="Enviar datos al servidor">
+		
+	</form>
+
+</body>
+</html>
